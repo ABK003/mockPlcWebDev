@@ -1,0 +1,86 @@
+.review-submission {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-submission h2 {
+  margin-top: 0;
+}
+
+.rating {
+  margin-bottom: 20px;
+}
+
+.rating label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.rating input[type="radio"] {
+  margin-right: 10px;
+}
+
+.review-text {
+  margin-bottom: 20px;
+}
+
+.review-text label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.review-text textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.pros-cons {
+  margin-bottom: 20px;
+}
+
+.pros-cons label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.pros-cons textarea {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+#edit-review {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#edit-review:hover {
+  background-color: #23527c;
+}

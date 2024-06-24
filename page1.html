@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Review Submission page
+      
+    </title>
+    <link rel="stylesheet" href="styles1.css" />
+    
+  </head>
+  
+  <body>
+                              
+<div class="review-submission">
+  <h2>Course Review: {{ course.title }}</h2>
+  <form id="review-form">
+    <div class="rating">
+      <label>Rating:</label>
+      <input type="radio" name="rating" value="1"> 1 star
+      <input type="radio" name="rating" value="2"> 2 stars
+      <input type="radio" name="rating" value="3"> 3 stars
+      <input type="radio" name="rating" value="4"> 4 stars
+      <input type="radio" name="rating" value="5"> 5 stars
+    </div>
+    <div class="review-text">
+      <label>Review:</label>
+      <textarea name="review" id="review"></textarea>
+    </div>
+    <div class="advantages-disadvantages">
+      <label>Pros:</label>
+      <textarea name="advantages" id="advantages"></textarea>
+      <label>Cons:</label>
+      <textarea name="disadvantages" id="disadvantages"></textarea>
+    </div>
+    <button type="submit">Submit Review</button>
+    <button type="button" id="edit-review">Edit Review</button>
+  </form>
+</div>                               
+                                                             
+                                                   
+     
+  </body>
+</html>
